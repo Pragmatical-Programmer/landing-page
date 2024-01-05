@@ -65,3 +65,36 @@ header>ul>li>a {
     width: 100%;
     min-width: 300px;
 }
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 15px;
+    gap: 40px;
+}
+
+.section-two>h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.section-two-cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+}
+
+.card>img {
+    height: 200px;
+    width: 100%;
+}
+
+.card>p {
+    color: rgb(114, 114, 114);
+}
