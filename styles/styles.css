@@ -1,10 +1,11 @@
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15%;
     align-items: center;
     background-color: #1f2937;
     color: white;
-    padding: 0 100px;
+    padding: 0 30px;
 }
 
 header>ul {
@@ -16,4 +17,51 @@ header>ul {
 header>ul>li>a {
     color: rgb(197, 197, 197);
     text-decoration: none;
+}
+
+.section-one {
+    color: white;
+    padding: 30px 30px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.section-one-left {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+}
+
+.section-one-left>h1 {
+    margin: 0;
+}
+
+.section-one-left>button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.section-one-right {
+    /* Give the parent container for the image a height, so that the image can dynamically resize based on screen size*/
+    width: 400px;
+}
+
+.section-one-right>img {
+    /* making the image flex because otherwise the container holding img will be slightly
+    larger than the image itself causing spacing issues. */
+    display: flex;
+    flex-wrap: wrap;
+
+    height: auto;
+    width: 100%;
+    min-width: 300px;
 }
