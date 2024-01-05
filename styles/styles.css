@@ -6,6 +6,7 @@ header {
     background-color: #1f2937;
     color: white;
     padding: 0 30px;
+    font-size: 20px;
 }
 
 header>ul {
@@ -48,6 +49,12 @@ header>ul>li>a {
     padding: 5px 30px;
     background-color: #3882f6;
     color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.section-one-left>button:hover {
+    cursor: pointer;
 }
 
 .section-one-right {
@@ -93,8 +100,80 @@ header>ul>li>a {
 .card>img {
     height: 200px;
     width: 100%;
+    border-radius: 10px;
 }
 
 .card>p {
-    color: rgb(114, 114, 114);
+    color: rgb(83, 83, 83);
+    font-size: 18px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    font-size: 30px;
+}
+
+.section-three-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.quote {
+    align-self: center;
+    margin: 0;
+}
+
+.quote-signature {
+    align-self: flex-end;
+    margin: 0;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four-inner {
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 80px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(40, 120, 211);
+}
+
+.section-four-inner-text>h3 {
+    margin: 0;
+    Font-size: 30px;
+}
+
+.section-four-inner-text>p {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(207, 207, 207);
+}
+
+.section-four-inner-button {
+    color: white;
+    padding: 10px 30px;
+    background-color: rgb(40, 120, 211);
+    border: solid 2px white;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.section-four-inner-button:hover {
+    cursor: pointer;
 }
