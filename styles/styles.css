@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 0 100px;
+}
+
+header>ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+header>ul>li>a {
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+}
