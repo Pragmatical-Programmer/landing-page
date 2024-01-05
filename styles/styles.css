@@ -151,6 +151,7 @@ header>ul>li>a {
     padding: 50px;
     border-radius: 10px;
     background-color: rgb(40, 120, 211);
+    flex-wrap: wrap;
 }
 
 .section-four-inner-text>h3 {
@@ -176,4 +177,12 @@ header>ul>li>a {
 
 .section-four-inner-button:hover {
     cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
 }
